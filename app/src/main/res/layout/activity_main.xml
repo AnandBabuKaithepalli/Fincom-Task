@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".pages.MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Registration"
+        android:gravity="center"
+        android:textSize="30sp"
+       android:textStyle="bold"
+
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:inputType="text"
+         android:textColorHint="@color/red"
+        app:boxStrokeColor="@color/blue"
+        android:hint="Enter Name" />
+
+    <EditText
+        android:id="@+id/etmail"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:textColorHint="@color/red"
+        app:boxStrokeColor="@color/blue"
+        android:inputType="text"
+        android:hint="Enter Mail" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:textColorHint="@color/red"
+        app:boxStrokeColor="@color/blue"
+        android:inputType="text"
+       android:hint="Password" />
+    <EditText
+        android:id="@+id/uniqueId"
+        android:textColorHint="@color/red"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        app:boxStrokeColor="@color/blue"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Unique ID"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="325dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="30dp"
+        android:text="Login"
+        android:layout_marginLeft="30dp"
+       android:layout_marginRight="20dp"
+        >
+
+    </Button>
+</LinearLayout>
